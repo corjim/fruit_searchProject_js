@@ -7,7 +7,8 @@
 
 /* Styling the body */
 body {
-    background: #012b5ee0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: Arial, sans-serif;
     color: #130101;
 }
 
@@ -15,7 +16,8 @@ body {
 .search-box {
     width: 600px;
     height: auto;
-    background: #dadfe6f6;
+    background: #f4ac8233;
+    border-radius: 5px;
     margin: 200px auto 0;
 }
 
@@ -23,7 +25,9 @@ body {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background-color: #baddba;
+    background-color: #f6dcc9;
+    border-radius: 5px;
+    border: 1px solid #ad5454;
 }
 
 input {
@@ -73,5 +77,5 @@ button .fa-solid {
 }
 
 .result-box ul li:hover {
-    background: #e9f3ff;
+    background: #feb47b;
 }
